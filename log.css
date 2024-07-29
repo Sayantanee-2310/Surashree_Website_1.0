@@ -1,0 +1,55 @@
+* {
+    margin:0;
+    font-family: Arial;
+    border: border-box;
+    transition-delay: 3s;
+}
+
+
+body{
+
+    background-image: url("login_bg.png");
+    background-size: cover;
+    height: 100px;
+    align-items: center;
+
+}
+
+.login_box{
+    height: 10cm;
+    width: 10cm;
+    margin:150px 50px 50px 560px;
+    /* padding: 20px 50px 20px 40px; */
+    background-color: rgba(215, 231, 236, 0.2);
+    /* justify-content: center;
+    align-content: center; */
+    display: flex;
+    flex-direction: column;
+    /* background-color: rgb(0,0,0);  */
+    /* justify-items: center;
+    /* display: inline-block; */
+    border-style: solid;
+    border-radius: 40px;
+    border-width: 2px;
+    box-shadow: 30px;
+    border-color: rgb(10, 48, 102);
+    text-align: center;
+
+}
+.heading{
+    /* text-align: center;
+    justify-content: center; */
+    margin: 50px 10px 10px 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(6, 23, 41);
+}
+.hero_sec{
+    margin-top: 80px;
+    justify-content: center;
+    align-content: center;
+    
+}
+.submit_btn{
+    margin-top: 50px;
+    size: 50px;
+}
